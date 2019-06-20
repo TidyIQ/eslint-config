@@ -19,8 +19,7 @@ module.exports = {
     "jest", 
     "jsx-a11y", 
     "prettier",
-    "react", 
-    "react-hooks",
+    "react",
     "@typescript-eslint", 
   ],
   "rules": {
