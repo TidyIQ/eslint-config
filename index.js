@@ -1,6 +1,7 @@
 module.exports = {
   "extends": [
     "airbnb",
+    "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
