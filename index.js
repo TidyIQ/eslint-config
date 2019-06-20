@@ -24,8 +24,6 @@ module.exports = {
     "@typescript-eslint", 
   ],
   "rules": {
-    "react-hooks/exhaustive-deps": "warn",
-    "react-hooks/rules-of-hooks": "error",
     "react/prop-types": "off",
     "@typescript-eslint/explicit-function-return-type": ["error", {
       "allowTypedFunctionExpressions": true
