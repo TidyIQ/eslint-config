@@ -1,13 +1,14 @@
 {
   "name": "@tidyiq/eslint-config-tidyiq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint configuration combining airbnb, prettier, jest, react and typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no tests available\" && exit 1"
   },
   "keywords": [
-    "tidyiq"
+    "tidyiq",
+    "eslint-config-tidyiq"
   ],
   "author": "Jake Clayton",
   "license": "ISC",
