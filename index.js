@@ -9,7 +9,6 @@ module.exports = {
     "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "airbnb",
     "prettier",
     "prettier/@typescript-eslint"
   ],
