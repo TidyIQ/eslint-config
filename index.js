@@ -1,12 +1,17 @@
-module.exports = {
+module.exports = {    
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
   "extends": [
-    "airbnb",
     "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "airbnb",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
+    "prettier/@typescript-eslint"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
