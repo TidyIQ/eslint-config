@@ -13,8 +13,8 @@ module.exports = {
     "plugin:import/typescript",
     "prettier",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier/react",
+    "prettier/@typescript-eslint"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -25,7 +25,10 @@ module.exports = {
   },  
   "plugins": [
     "@typescript-eslint", 
+    "import",
     "jest", 
+    "jsx-ally",
+    "react",
     "prettier"
   ],
   "rules": {
