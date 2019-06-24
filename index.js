@@ -5,8 +5,10 @@ module.exports = {
     "node": true
   },
   "extends": [
+    "airbnb",
     "plugin:import/typescript",
     "plugin:jest/recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "prettier",
