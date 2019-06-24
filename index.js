@@ -1,18 +1,18 @@
 module.exports = {    
   "env": {
     "browser": true,
+    "es6": true,
     "jest": true,
     "node": true
   },
   "extends": [
-    "airbnb",
-    "plugin:import/typescript",
     "plugin:jest/recommended",
-    "plugin:react/recommended",
+    "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    "plugin:import/typescript",
     "prettier",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
+    "prettier/react"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -22,15 +22,11 @@ module.exports = {
     "useJSXTextNode": true
   },  
   "plugins": [
-    "import",
-    "jest", 
-    "jsx-a11y", 
-    "prettier",
-    "react",
     "@typescript-eslint", 
+    "jest", 
+    "prettier"
   ],
   "rules": {
-    "react/prop-types": "off",
     "@typescript-eslint/explicit-function-return-type": ["error", {
       "allowTypedFunctionExpressions": true
     }],
