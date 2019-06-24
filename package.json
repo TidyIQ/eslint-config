@@ -1,6 +1,6 @@
 {
   "name": "@tidyiq/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint configuration combining airbnb, prettier, jest, react and typescript",
   "main": "index.js",
   "scripts": {

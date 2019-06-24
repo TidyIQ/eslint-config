@@ -6,11 +6,13 @@ module.exports = {
     "node": true
   },
   "extends": [
+    "plugin:react/recommended",
     "plugin:jest/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
     "prettier",
+    "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
