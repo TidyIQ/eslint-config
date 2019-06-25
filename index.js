@@ -6,7 +6,9 @@ module.exports = {
     "node": true
   },
   "extends": [
+    "airbnb",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
@@ -21,7 +23,7 @@ module.exports = {
     "sourceType": "module",
     "useJSXTextNode": true
   },
-  "plugins": ["@typescript-eslint", "jest", "react", "prettier"],
+  "plugins": ["@typescript-eslint", "import", "jest", "react", "prettier"],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": [
       "error",
