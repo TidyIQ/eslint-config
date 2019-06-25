@@ -20,7 +20,7 @@ module.exports = {
     "sourceType": "module",
     "useJSXTextNode": true
   },
-  "plugins": ["@typescript-eslint", "jest", "prettier"],
+  "plugins": ["@typescript-eslint", "jest", "react", "prettier"],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": [
       "error",
