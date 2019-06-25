@@ -29,7 +29,8 @@ module.exports = {
         "allowTypedFunctionExpressions": true
       }
     ],
-    "@typescript-eslint/explicit-member-accessibility": "off"
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "react/prop-types": [0]
   },
   "settings": {
     "react": {
