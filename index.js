@@ -32,6 +32,7 @@ module.exports = {
       }
     ],
     "@typescript-eslint/explicit-member-accessibility": "off",
+    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
     "react/prop-types": [0]
   },
   "settings": {
