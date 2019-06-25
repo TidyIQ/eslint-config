@@ -24,10 +24,9 @@ module.exports = {
     "useJSXTextNode": true
   },  
   "plugins": [
-    "@typescript-eslint", 
+    "@typescript-eslint",
     "import",
-    "jest", 
-    "jsx-ally",
+    "jest",
     "react",
     "prettier"
   ],
