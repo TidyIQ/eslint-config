@@ -1,4 +1,4 @@
-module.exports = {    
+module.exports = {
   "env": {
     "browser": true,
     "es6": true,
@@ -6,15 +6,12 @@ module.exports = {
     "node": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "plugin:jest/recommended",
-    "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
-    "prettier",
+    "plugin:jest/recommended",
     "plugin:prettier/recommended",
-    "prettier/react",
-    "prettier/@typescript-eslint"
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -22,18 +19,15 @@ module.exports = {
     "jsx": true,
     "sourceType": "module",
     "useJSXTextNode": true
-  },  
-  "plugins": [
-    "@typescript-eslint",
-    "import",
-    "jest",
-    "react",
-    "prettier"
-  ],
+  },
+  "plugins": ["@typescript-eslint", "jest", "prettier"],
   "rules": {
-    "@typescript-eslint/explicit-function-return-type": ["error", {
-      "allowTypedFunctionExpressions": true
-    }],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowTypedFunctionExpressions": true
+      }
+    ],
     "@typescript-eslint/explicit-member-accessibility": "off"
   },
   "settings": {
