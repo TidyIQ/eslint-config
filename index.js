@@ -31,7 +31,8 @@ module.exports = {
         "allowTypedFunctionExpressions": true
       }
     ],
-    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",    
+    "import/no-extraneous-dependencies": 0,
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
     "react/prop-types": [0]
   },
