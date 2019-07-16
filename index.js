@@ -32,8 +32,16 @@ module.exports = {
         "allowTypedFunctionExpressions": true
       }
     ],
-    "@typescript-eslint/explicit-member-accessibility": "off",    
-    "import/no-extraneous-dependencies": 0,
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": [
+          "state"
+        ]
+      }
+    ],
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
     "react/prop-types": [0]
   },
