@@ -42,8 +42,8 @@ module.exports = {
         ]
       }
     ],
-    "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
-    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
+    "@typescript-eslint/no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+    "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
     "react/prop-types": [0]
   },
   "settings": {

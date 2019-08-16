@@ -1,6 +1,6 @@
 {
   "name": "@tidyiq/eslint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "ESLint configuration combining airbnb, prettier, jest, react and typescript",
   "keywords": [
     "tidyiq",
@@ -16,9 +16,6 @@
   },
   "bugs": {
     "url": "https://github.com/TidyIQ/eslint-config/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no tests available\" && exit 1"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11.0",
