@@ -1,6 +1,6 @@
 {
   "name": "@tidyiq/eslint-config",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "ESLint configuration combining airbnb, prettier, jest, react and typescript",
   "keywords": [
     "tidyiq",
@@ -29,9 +29,9 @@
     "eslint-plugin-react": "^7.14.3"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^6.4.0",
     "prettier": "^1.18.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.3"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
